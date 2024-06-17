@@ -1,0 +1,46 @@
+input[type="email"] {
+    -webkit-appearance: none;
+
+    border: 1px solid #333;
+    margin: 0;
+
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+input[type="text"] {
+    -webkit-appearance: none;
+
+    border: 1px solid #333;
+    margin: 0;
+
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/* Este é o nosso estilo para os campos inválidos */
+input:invalid {
+    border-color: #900;
+    background-color: #fdd;
+}
+
+input:focus:invalid {
+    outline: none;
+}
+
+/* Este é o estilo das nossas mensagens de erro */
+.error {
+    padding: 0;
+
+    font-size: 80%;
+    color: white;
+    background-color: #900;
+    border-radius: 0 0 5px 5px;
+
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.error.active {
+    padding: 0.3em;
+}
